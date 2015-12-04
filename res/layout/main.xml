@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<!-- 相对布局 -->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/phone" />
+
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/text1"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/text1" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/message" />
+
+    <EditText
+        android:id="@+id/mess"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minLines="3" />
+
+    <Button
+        android:id="@+id/sendid"
+        android:layout_width="73dp"
+        android:layout_height="wrap_content"
+        android:text="@string/send" />
+
+</LinearLayout>

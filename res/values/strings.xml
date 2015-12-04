@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">短信发送器</string>
+    <string name="phone">请输入手机号码</string>
+    <string name="message">请输入信息内容</string>
+    <string name="send">发送</string>
+    <string name="suc">发送成功</string>
+
+</resources>
