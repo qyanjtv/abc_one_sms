@@ -5,7 +5,7 @@ import android.test.AndroidTestCase;
 import android.util.Log;
 
 public class TestService extends AndroidTestCase {
-	private static final String TAG = "TestService";
+	private static final String TAG = "TestService"
 
 	private String save() {
 		return "小明：" + "12岁";
