@@ -16,16 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- 加入单元测试用例 -->
+        <!-- join juit-->
         <uses-library android:name="android.test.runner" />
     </application>
-    <!-- 取得用户发送短信的权限 -->
+    <!-- send mess -->
     <uses-sdk android:targetSdkVersion="10" />
 
     <uses-permission android:name="android.permission.SEND_SMS" />
-    <!-- 加入丹单元测试用列 -->
+    <!-- junit-->
     <instrumentation
-        android:label="测试"
+        android:label="test"
         android:name="android.test.InstrumentationTestRunner"
         android:targetPackage="com.kingbse.sms" />
 </manifest>

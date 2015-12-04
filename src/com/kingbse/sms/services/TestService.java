@@ -8,7 +8,7 @@ public class TestService extends AndroidTestCase {
 	private static final String TAG = "TestService";
 
 	private String save() {
-		return "Ğ¡Ã÷£º" + "12Ëê";
+		return "å°æ˜ï¼š" + "12å²";
 	}
 
 	private int sum() {
