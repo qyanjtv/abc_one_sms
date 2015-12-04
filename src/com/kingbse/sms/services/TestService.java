@@ -22,7 +22,7 @@ public class TestService extends AndroidTestCase {
 		int sub = t.sum();
 		String messs = String.valueOf(sub);
 		Assert.assertEquals(5555, sub);
-		// Assert.assertEquals(3,s);
+		 Assert.assertEquals(3,s);
 		Log.i(TAG, messs);
 
 	}
